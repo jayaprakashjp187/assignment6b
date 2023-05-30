@@ -23,6 +23,14 @@
 
 
                     break;
+                case 2:
+                    Console.WriteLine("welcome to the square root program");
+            
+                    double k = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Square root: " + SquareRoot.FindingSqrt(k));
+                  
+                    Console.WriteLine();
+                    break;
             }
         }
     }
